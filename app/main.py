@@ -32,7 +32,7 @@ def login():
         number_of_balls= request.form.get('nbb',type = int)
         
         
-        switcher={"Red":"0","Orange":"1",'Yellow':"2","Green":"3",'Blue':"4",'Infigo':'5','Violet':6}
+        switcher={"Red":"0","Orange":"1",'Yellow':"2","Green":"3",'Blue':"4",'Indigo':'5','Violet':6}
         
         color_of_balls = request.form.get("rating")
         color_of_balls=int(switcher.get(color_of_balls))
